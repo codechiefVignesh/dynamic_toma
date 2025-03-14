@@ -1,0 +1,7 @@
+load,r0,32,r2
+load,r4,32,r2
+load,r2,44,r3
+imul,r0,r2,r4
+iadd,r8,r2,r6
+fmul,r10,r0,r6
+fadd,r6,r8,r2
