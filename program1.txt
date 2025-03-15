@@ -1,0 +1,11 @@
+load,r1,5,r10
+load,r2,10,r11
+iadd,r3,r1,r2
+imul,r4,r3,r2
+store,r4,0,r12
+load,r5,15,r15
+iadd,r3,r5,r1
+imul,r6,r3,r2
+store,r6,4,r16
+load,r1,20,r13
+iadd,r7,r1,r4
